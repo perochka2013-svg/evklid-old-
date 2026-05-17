@@ -67,11 +67,11 @@ nav a:nth-child(7) {
 }
     */
 
-li{
-     list-style: none;
+li {
+    list-style: none;
 }
 
-ul{
+ul {
     padding: 0;
 }
 
@@ -987,7 +987,7 @@ footer nav::after {
     .flex>p {
         max-width: 650px;
     }
-    
+
     .footer-part>a>.Logo {
         margin-top: 50px;
         max-width: 224px;
@@ -1007,6 +1007,14 @@ footer nav::after {
         display: none;
     }
 
+    footer {
+        padding-left: 15px;
+    }
+
+    .img-one {
+        margin-bottom: 38px;
+    }
+
 
 }
 
@@ -1024,6 +1032,10 @@ footer nav::after {
         display: flex;
         align-items: center;
         flex-direction: column;
+    }
+
+    .img-one {
+        margin-bottom: 38px;
     }
 
     .mobile-logo {
